@@ -18,6 +18,16 @@ public class Examen {
 		}else {
 			System.out.println("ERROR...");
 		}
+		
+		System.out.println("2. ¿Cuál es la capital de Alemania?");
+		String respuesta2 = leer.nextLine();
+		
+		if (respuesta.equals("Berlin")) 
+		{
+			System.out.println("¡¡CORRECTO!!");
+		}else {
+			System.out.println("ERROR...");
+		}
 	}
 
 }
